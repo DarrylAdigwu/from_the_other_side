@@ -6,7 +6,9 @@ import fs from "node:fs/promises";
 const __dirname = import.meta.dirname
 
 const server = http.createServer(async (req, res) => {
+  
   await serveStatic(req, res, __dirname);
+
 })
 
 
