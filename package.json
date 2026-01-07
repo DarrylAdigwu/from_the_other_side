@@ -1,0 +1,25 @@
+{
+  "name": "from_the_other_side",
+  "version": "1.0.0",
+  "description": "\"A platform for sharing ghostly encounters\"",
+  "homepage": "https://github.com/DarrylAdigwu/from_the_other_side#readme",
+  "bugs": {
+    "url": "https://github.com/DarrylAdigwu/from_the_other_side/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DarrylAdigwu/from_the_other_side.git"
+  },
+  "license": "ISC",
+  "author": "Darryl Adigwu",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "devStart": "nodemon server.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
