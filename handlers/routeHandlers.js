@@ -5,3 +5,7 @@ export const handleGet = async (req, res) => {
   const stringData = JSON.stringify(await getData());
   return await sendResponse(res, 200, "application/json", stringData)
 }
+
+export const handlePost = async(req, res) => {
+  console.log("Post request received")
+}
