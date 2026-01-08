@@ -1,8 +1,5 @@
 import http from "node:http";
-import path from "node:path";
 import { serveStatic } from "./utils/serverStatic.js";
-import { getData } from "./utils/getData.js";
-import fs from "node:fs/promises";
 import { handleGet, handlePost } from "./handlers/routeHandlers.js";
 
 const __dirname = import.meta.dirname
